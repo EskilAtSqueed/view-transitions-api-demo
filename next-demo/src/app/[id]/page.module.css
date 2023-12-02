@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.image {
+  margin-bottom: 1.5rem;
+  height: auto;
+  aspect-ratio: 42 / 59;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 580px;
+}
+
+.ratings {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.ratings > span {
+  color: yellow;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .main {
+    display: block;
+  }
+
+  .image {
+    width: 100%;
+  }
+}

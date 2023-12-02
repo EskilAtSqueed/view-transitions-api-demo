@@ -1,0 +1,9 @@
+.movies {
+  width: 100%;
+  display: grid;
+  align-items: start;
+  grid-gap: 4rem 2rem;
+  align-content: space-between;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fit, 14rem);
+}
